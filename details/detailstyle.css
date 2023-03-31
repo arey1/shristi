@@ -7,6 +7,7 @@
 }
 
 body {
+    
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   min-width: 480px;
@@ -37,6 +38,7 @@ img {
 }
 
 .containerss {
+    
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
@@ -44,6 +46,7 @@ img {
 }
 
 .row {
+    
   display: auto;
  
 }
@@ -51,7 +54,7 @@ img {
 .hero {
   background-color: #23424a;
   color: white;
-  background: black;
+  background: #02101c;
   padding-bottom: 2em;
 }
 
@@ -71,6 +74,9 @@ img {
   display: inline;
 }
 
+.containerss_r{
+    background-color: #b1e5ff;
+}
 
 
 .btnss {
@@ -84,9 +90,9 @@ img {
   letter-spacing: 0.05rem;
   padding: 1rem 2rem;
   background-color: #38cfd9;
-  background: linear-gradient(110deg, rgb(7, 133, 251), rgb(118, 118, 255));
+  background: linear-gradient(110deg, rgb(165, 212, 255), rgb(118, 118, 255));
   color: #072a2d;
-  border-radius: 2rem;
+  border-radius: 1rem;
   box-shadow: -2px -2px 8px rgba(255, 255, 255, 0.6),
     2px 2px 8px rgba(0, 0, 0, 0.3), -1px -1px 8px rgba(255, 255, 255, 0.6),
     1px 1px 8px rgba(0, 0, 0, 0.3);
@@ -229,3 +235,4 @@ img {
       overflow-y: auto;
     }
   }
+  
