@@ -1,6 +1,4 @@
-(function($) {
-
-	"use strict";
-
-
-})(jQuery);
+const toggleForm = () => {
+	const container = document.querySelector('.container');
+	container.classList.toggle('active');
+  };
