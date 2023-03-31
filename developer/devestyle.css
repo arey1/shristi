@@ -194,7 +194,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(#03a9f4, #03a9f4 45%, #fff 45%, #fff 100%);
+  background: linear-gradient(#02101c, #02101c 45%, #bdc3cc 45%, #54a8fd 100%);
 }
 
 .card {
