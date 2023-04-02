@@ -34,7 +34,7 @@ body {
 }
 
 img {
-  max-width: 200%;
+  max-width: 70%;
 }
 
 .containerss {
@@ -119,6 +119,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 70%;
   
   }
   
@@ -143,7 +144,7 @@ img {
     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
   }
 
-
+ 
   .nav {
     height: 80px;
     width: 100%;
@@ -160,6 +161,7 @@ img {
     font-size: 22px;
     color: #fff;
     padding: 10px 10px 10px 10px;
+    
   }
   
   .nav > .nav-btn {
@@ -170,15 +172,15 @@ img {
     display: inline;
     float: right;
     font-size: 18px;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   
   .nav > .nav-links > a {
     display: inline-block;
-    margin-top: 1rem;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
     color: #efefef;
+    margin-top: 1rem;
   }
   
   .nav > .nav-links > a:hover {
@@ -188,6 +190,7 @@ img {
   .nav > #nav-check {
     display: none;
   }
+  
   
   @media (max-width:600px) {
     .nav > .nav-btn {
@@ -212,7 +215,8 @@ img {
       border-top: 2px solid #eee;
     }
     .nav > .nav-links {
-      z-index: 10;
+		  z-index: 10;
+      margin-top: 3rem;
       position: absolute;
       display: block;
       width: 100%;
@@ -235,4 +239,5 @@ img {
       overflow-y: auto;
     }
   }
-  
+
+
